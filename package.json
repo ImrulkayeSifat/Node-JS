@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ImrulkayeSifat/Node-JS.git"
+  },
+  "author": "Imrul Kayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImrulkayeSifat/Node-JS/issues"
+  },
+  "homepage": "https://github.com/ImrulkayeSifat/Node-JS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.3"
+  }
+}
